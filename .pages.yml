@@ -1,13 +1,34 @@
 media: media
 content:
-  - name: cikkek
-    label: Cikkek
-    path: content
-    files: false
+  - name: home
+    label: Főoldal (Kezdőlap)
+    path: content/home.md
     fields:
       - name: title
-        label: Cím
+        label: Oldal Címe
         type: string
       - name: body
-        label: Tartalom
+        label: Főoldal Tartalma
+        type: markdown
+
+  - name: legacy_xiaomi
+    label: Régebbi Xiaomi-k (MIUI Aranykorszak)
+    path: content/legacy
+    fields:
+      - name: title
+        label: Cikk Címe
+        type: string
+      - name: body
+        label: Útmutató Leírása
+        type: markdown
+
+  - name: modern_hyperos
+    label: Új Xiaomi-k (MIUI 13+ & HyperOS)
+    path: content/hyperos
+    fields:
+      - name: title
+        label: Cikk Címe
+        type: string
+      - name: body
+        label: Útmutató Leírása
         type: markdown
