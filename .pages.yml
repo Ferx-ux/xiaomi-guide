@@ -1,1 +1,12 @@
-content
+media: media
+content:
+  - name: Utmutato
+    path: content
+    label: Xiaomi Útmutatók
+    fields:
+      - name: title
+        label: Cím
+        type: string
+      - name: body
+        label: Tartalom
+        type: text
