@@ -1,12 +1,13 @@
 media: media
 content:
-  - name: Utmutato
+  - name: cikkek
+    label: Cikkek
     path: content
-    label: Xiaomi Útmutatók
+    files: false
     fields:
       - name: title
         label: Cím
         type: string
       - name: body
         label: Tartalom
-        type: text
+        type: markdown
